@@ -1,0 +1,19 @@
+{
+  "name": "exemplo-node-ts",
+  "version": "1.0.0",
+  "description": "Projeto Node.js em TypeScript com demonstrações de variáveis e funções",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "keywords": ["node", "typescript", "exemplo", "variaveis", "funcoes"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^26.5.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^7.0.2"
+  }
+}
